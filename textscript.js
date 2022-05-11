@@ -10,7 +10,7 @@ const elts = {
 
 const texts = [
     "A-GENERATIVE-WEB CLASS",
-    "CLICK TO SEE MORE",
+    "REFRESH FOR NEW OUTPUT",
     
 ];
 
