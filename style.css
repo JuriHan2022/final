@@ -1,3 +1,5 @@
+
+
 main{
     display: -webkit-box;
     display: -webkit-flex;
@@ -15,8 +17,11 @@ main{
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto; 
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
-section1 section2{
+
+.section1 .section2{
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -58,11 +63,57 @@ section1 section2{
     -ms-flex: 0 auto;
     flex: 0 auto; 
 }
-.texbox{
+.textbox{
+display: inline-block;
+width: 80%;
+}
+
+.headertext2{
+    color: black;
+    font-size: 4.236rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.headertext1{
+    color: black;
+    font-size: 6.854rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.linktopage{
+    color: black;
+    font-size: 1.618rem;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    padding-top: 40px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+.towbottom{
+    color: black;
+    font-size: 1.618rem;
+    font-family: 'Gruppo', cursive;
+    font-weight: 400;
+    padding-top: 10px;
+    display: flex;
+    margin: auto;
+    flex-direction: column; 
+    flex: 0 auto; 
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+.img-gallery{
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    width: 80%;
+    width: 100%;
     margin: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -75,53 +126,33 @@ section1 section2{
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto; 
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
 
-.headertext2{
-    color: black;
-    font-size: 88.95px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-}
-
-.headertext1{
-    color: black;
-    font-size: 143.92px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-}
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-.linktopage{
-    color: black;
-    font-size: 33.98px;
-    font-family: 'Press Start 2P', cursive;
-    font-weight: 400;
-    padding-top: 40px;
-}
-@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
-
-.towbottom{
-    color: black;
-    font-size: 33.98px;
-    font-family: 'Gruppo', cursive;
-    font-weight: 400;
-    padding-top: 10px;
-    display: flex;
+.output1 .output2 .output3 .output4 .output5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     margin: auto;
-    flex-direction: column; 
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -webkit-align-items:flex-start; 
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
     flex: 0 auto; 
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
-
-img{
-    width: 100px;
-    height: auto;
-}
-
 
 button{
     color: black;
-    font-size: 33.98px;
+    font-size: 1.618rem;
     font-family: 'Gruppo', cursive;
     font-weight: 400;
     padding: 10px;
@@ -143,7 +174,7 @@ button{
     width: 100%;
     display: inline-block;
     font-family: 'Press Start 2P', cursive;
-    font-size: 33.98px;
+    font-size: 1.618rem;
     text-align:left;
     user-select: text;
 
